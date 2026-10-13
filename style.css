@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(
+        circle at top,
+        #e4fc0d,
+        #5b6502 62%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        color: rgb(255, 255, 255);   
+}
+
+.oraculo {
+    width: min(90%, 500px);
+    padding: 35px;
+    text-align: center;
+    background: #9cb31b;
+    border: 1px solid rgb(53, 60, 3);
+    border-radius: 20px;
+    box-shadow:  0 0 30px rgb(34, 39, 1);
+}
+
+h1{
+    color: #fbfbfc;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 15px 0;
+    border: 1px solid #cde20a;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    background: #3c3c04;
+    color: rgb(237, 253, 2);
+}
+
+button {
+    padding: 14px 20px;
+    border:10px 10px 255px 0px;
+    border-color: #eaf605;
+    border-radius: 40px;
+    background: rgb(70, 75, 7);
+    color: rgb(226, 233, 9);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transition-duration: 0.53s;
+    background: #908f63;
+    color: rgb(23, 26, 0);
+}
+
+#resposta {
+    margin-top: 30px;
+    color: rgb(245, 245, 245); 
+
+}
